@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+require 'advice'
+
+Advice::CLI.start(ARGV)

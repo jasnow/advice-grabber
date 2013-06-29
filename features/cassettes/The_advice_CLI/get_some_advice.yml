@@ -1,0 +1,46 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.adviceslip.com/advice
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 29 Jun 2013 16:41:58 GMT
+      Server:
+      - Apache/2.2.16 (Debian)
+      X-Powered-By:
+      - PHP/5.3.3-7+squeeze14
+      X-Mod-Pagespeed:
+      - 1.1.23.2-2258
+      Access-Control-Allow-Origin:
+      - ! '*'
+      Access-Control-Allow-Headers:
+      - origin, x-requested-with, content-type
+      Access-Control-Allow-Methods:
+      - PUT, GET, POST, DELETE, OPTIONS
+      Vary:
+      - Accept-Encoding
+      Cache-Control:
+      - max-age=0, no-cache
+      Content-Length:
+      - '71'
+      Content-Type:
+      - text/html; charset=UTF-8
+    body:
+      encoding: US-ASCII
+      string: ! '{"slip": {"advice":"Don''t be afraid to ask questions.","slip_id":"89"}}'
+    http_version: 
+  recorded_at: Sat, 29 Jun 2013 16:41:58 GMT
+recorded_with: VCR 2.5.0
