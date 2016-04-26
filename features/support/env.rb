@@ -31,8 +31,8 @@ class VcrFriendlyMain
 end
 
 Before('@vcr') do
-  Aruba::InProcess.main_class = VcrFriendlyMain
-  Aruba.process = Aruba::InProcess
+  Aruba.configure { |config| config.main_class = VcrFriendlyMain }
+  Aruba.configure { |config| config.command_launcher = :in_process }
 end
 
 After('@vcr') do

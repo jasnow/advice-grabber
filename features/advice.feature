@@ -5,8 +5,9 @@ Feature: The advice CLI
 
   @vcr
   Scenario: get some advice
-    When I run `advice please`
+    When I run `advice help`
+
     Then the output should contain:
      """
-     Don't be afraid to ask questions.
+     Describe available commands or one specific command
      """
