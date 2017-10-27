@@ -48,7 +48,7 @@ GEM
     multi_json (1.12.2)
     multi_test (0.1.2)
     public_suffix (3.0.0)
-    rake (12.1.0)
+    rake (12.2.1)
     rspec-expectations (3.7.0)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.7.0)
