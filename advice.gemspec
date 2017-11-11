@@ -22,7 +22,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rake"
   spec.add_development_dependency "vcr"
   spec.add_development_dependency "webmock"
-  spec.add_development_dependency "cucumber", '3.0.0.pre.2' # LOCKED DOWN
+  spec.add_development_dependency "cucumber"
   spec.add_development_dependency "aruba"
   spec.add_dependency "thor"
 end
