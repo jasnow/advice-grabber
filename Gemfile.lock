@@ -44,7 +44,7 @@ GEM
     ffi (1.10.0)
     gherkin (5.1.0)
     hashdiff (0.3.8)
-    json (2.1.0)
+    json (2.2.0)
     multi_json (1.13.1)
     multi_test (0.1.2)
     public_suffix (3.0.3)
