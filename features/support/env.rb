@@ -2,8 +2,8 @@ require 'simplecov'
 SimpleCov.start 'rails'
 
 require 'aruba/cucumber'
-require 'aruba/in_process'
-require 'aruba/spawn_process'
+require 'aruba/processes/in_process'
+require 'aruba/processes/spawn_process'
 require 'vcr'
 require 'webmock'
 require 'advice'
@@ -36,7 +36,7 @@ Before('@vcr') do
 end
 
 After('@vcr') do
-  Aruba.process = Aruba::SpawnProcess
+  Aruba.process = Aruba::Processes::SpawnProcess
   $stdin = STDIN
   $stdout = STDOUT
   VCR.eject_cassette
