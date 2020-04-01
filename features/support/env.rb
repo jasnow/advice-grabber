@@ -36,7 +36,7 @@ Before('@vcr') do
 end
 
 After('@vcr') do
-  Aruba.process = Aruba::Processes::SpawnProcess
+  aruba.config.command_launcher = :spawn
   $stdin = STDIN
   $stdout = STDOUT
   VCR.eject_cassette
