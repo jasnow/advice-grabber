@@ -22,7 +22,7 @@ GEM
     contracts (0.16.0)
     crack (0.4.3)
       safe_yaml (~> 1.0.0)
-    cucumber (3.1.2)
+    cucumber (3.2.0)
       builder (>= 2.1.2)
       cucumber-core (~> 3.2.0)
       cucumber-expressions (~> 6.0.1)
