@@ -68,7 +68,7 @@ PLATFORMS
 
 DEPENDENCIES
   advice!
-  aruba
+  aruba (= 1.0.0)
   bundler
   cucumber
   rake
