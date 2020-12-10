@@ -3,5 +3,5 @@ language: ruby
 rvm:
 - 2.7.2
 
-before_script: bundle exec rake db:migrate
+before_script: bundle exec rake
 cache: bundler
