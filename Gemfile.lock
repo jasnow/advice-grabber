@@ -16,7 +16,7 @@ GEM
       ffi (~> 1.9)
       rspec-expectations (~> 3.4)
       thor (~> 1.0)
-    backports (3.20.1)
+    backports (3.20.2)
     builder (3.2.4)
     childprocess (3.0.0)
     contracts (0.16.0)
@@ -80,4 +80,4 @@ DEPENDENCIES
   webmock
 
 BUNDLED WITH
-   2.2.6
+   2.2.7
